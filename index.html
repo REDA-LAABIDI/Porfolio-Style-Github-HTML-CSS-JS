@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Développeur Créatif</title>
+    <meta name="description" content="Portfolio professionnel d'un développeur web créatif.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Space+Grotesk:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <header class="header">
+        <nav class="nav container">
+            <a href="#home" class="logo">RIDA<span class="accent">.DEV</span></a>
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#home" class="nav-link">Accueil</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">À propos</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Compétences</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projets</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link button-primary">Contact</a></li>
+                </ul>
+                <div class="nav-close" id="nav-close">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <!-- HERO SECTION -->
+        <section class="hero" id="home">
+            <div class="hero-bg-gradient"></div>
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <span class="hero-subtitle scroll-reveal">Bonjour, je suis</span>
+                    <h1 class="hero-title scroll-reveal delay-1">
+                        RIDA <br>
+                        <span class="gradient-text">LAABIDI</span>
+                    </h1>
+                    <p class="hero-description scroll-reveal delay-2">
+                        Étudiant en BTS passionné par le développement. Certifié ALX AICE et SE, je crée des solutions
+                        innovantes.
+                    </p>
+                    <div class="hero-buttons scroll-reveal delay-3">
+                        <a href="#projects" class="button button-primary">
+                            Voir mes projets <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                        <a href="#contact" class="button button-ghost">
+                            Me contacter
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image scroll-reveal delay-2">
+                    <div class="image-wrapper">
+                        <img src="assets/img/rida.jpeg" alt="Portrait de Rida" class="user-profile-img">
+
+                    </div>
+                </div>
+            </div>
+
+            <a href="#about" class="scroll-down">
+                <span class="mouse">
+                    <span class="wheel"></span>
+                </span>
+                <span class="scroll-text">Scroller</span>
+            </a>
+        </section>
+
+        <!-- ABOUT SECTION -->
+        <section class="section about" id="about">
+            <div class="container about-container">
+
+                <div class="about-content scroll-reveal right">
+                    <h2 class="section-title">À Propos <span class="accent">de moi</span></h2>
+                    <p class="about-description">
+                        Actuellement étudiant en BTS et certifié par ALX en Génie Logiciel (SE) et AI Career Essentials
+                        (AICE), je suis un développeur passionné par la transformation de défis complexes en solutions
+                        digitales élégantes. Mon parcours académique rigoureux, combiné à une formation intensive chez
+                        ALX, m'a permis de maîtriser les meilleures pratiques du développement web moderne.
+                    </p>
+                    <p class="about-description">
+                        <strong>Mon objectif :</strong> Aider les entreprises et les entrepreneurs à se démarquer sur le
+                        web grâce à des solutions performantes et sur-mesure.
+                    </p>
+                    <p class="about-description">
+                        Je m'engage à apporter une valeur ajoutée réelle à chaque projet :
+                        <br>✓ <strong>Qualité Technique :</strong> Un code propre, maintenable et optimisé.
+                        <br>✓ <strong>Vision Produit :</strong> Compréhension de vos enjeux business pour des solutions
+                        adaptées.
+                        <br>✓ <strong>Fiabilité :</strong> Respect strict des délais et communication transparente.
+                    </p>
+
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <h3 class="stat-number">04+</h3>
+                            <p class="stat-title">Années d'Expérience</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3 class="stat-number">20+</h3>
+                            <p class="stat-title">Projets Complétés</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3 class="stat-number">15+</h3>
+                            <p class="stat-title">Clients Heureux</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS SECTION -->
+        <section class="section skills" id="skills">
+            <div class="container">
+                <h2 class="section-title center scroll-reveal">Mes <span class="accent">Compétences</span></h2>
+
+                <div class="skills-content">
+                    <div class="skills-area scroll-reveal bottom">
+                        <h3 class="skills-subtitle"><i class="fa-solid fa-code"></i> Frontend</h3>
+                        <div class="skills-box">
+                            <div class="skill-group">
+                                <div class="skill-data full-width random-color">
+                                    <div class="skill-titles">
+                                        <h3 class="skill-name">HTML / CSS</h3>
+                                        <span class="skill-number">100%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <span class="skill-percentage" style="width: 100%;"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skill-data full-width random-color">
+                                    <div class="skill-titles">
+                                        <h3 class="skill-name">JavaScript</h3>
+                                        <span class="skill-number">60%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <span class="skill-percentage" style="width: 60%;"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills-area scroll-reveal bottom delay-1">
+                        <h3 class="skills-subtitle"><i class="fa-solid fa-server"></i> Backend</h3>
+                        <div class="skills-box">
+                            <div class="skill-group">
+                                <div class="skill-data full-width random-color">
+                                    <div class="skill-titles">
+                                        <h3 class="skill-name">PHP</h3>
+                                        <span class="skill-number">90%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <span class="skill-percentage" style="width: 90%;"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skill-data full-width random-color">
+                                    <div class="skill-titles">
+                                        <h3 class="skill-name">Node.js</h3>
+                                        <span class="skill-number">90%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <span class="skill-percentage" style="width: 90%;"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skill-data full-width random-color">
+                                    <div class="skill-titles">
+                                        <h3 class="skill-name">MySQL</h3>
+                                        <span class="skill-number">90%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <span class="skill-percentage" style="width: 90%;"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS SECTION -->
+        <section class="section projects" id="projects">
+            <div class="container">
+                <h2 class="section-title center scroll-reveal">Projets <span class="accent">Récents</span></h2>
+
+                <div class="projects-container grid">
+                    <!-- Project 1 -->
+                    <article class="project-card scroll-reveal bottom">
+                        <div class="project-img-wrapper">
+                            <img src="assets/img/stock.jpg" alt="Gestion de stock" class="project-img">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fa-brands fa-github"></i></a>
+                                <a href="#" class="project-link"><i class="fa-solid fa-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <span class="project-subtitle">Logistique</span>
+                            <h3 class="project-title">Gestion de Stock</h3>
+                            <p class="project-description">
+                                Solution complète pour le suivi des stocks, la gestion des fournisseurs et les alertes
+                                de réapprovisionnement.
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">PHP</span>
+                                <span class="tag">SQL</span>
+                                <span class="tag">Bootstrap</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 2 -->
+                    <article class="project-card scroll-reveal bottom delay-1">
+                        <div class="project-img-wrapper">
+                            <img src="assets/img/helpdesk.jpg" alt="Helpdesk" class="project-img">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fa-brands fa-github"></i></a>
+                                <a href="#" class="project-link"><i class="fa-solid fa-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <span class="project-subtitle">Support IT</span>
+                            <h3 class="project-title">Helpdesk</h3>
+                            <p class="project-description">
+                                Plateforme de ticketing permettant la création, l'attribution et la résolution
+                                d'incidents techniques.
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">PHP</span>
+                                <span class="tag">MySQL</span>
+                                <span class="tag">JS</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 3 -->
+                    <article class="project-card scroll-reveal bottom delay-2">
+                        <div class="project-img-wrapper">
+                            <img src="assets/img/students.jpg" alt="Gestion des Élèves" class="project-img">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fa-brands fa-github"></i></a>
+                                <a href="#" class="project-link"><i class="fa-solid fa-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <span class="project-subtitle">Éducation</span>
+                            <h3 class="project-title">Gestion des Élèves</h3>
+                            <p class="project-description">
+                                Système d'administration scolaire pour gérer les inscriptions, les notes et les
+                                bulletins des étudiants.
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">PHP</span>
+                                <span class="tag">Laravel</span>
+                                <span class="tag">SQL</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section class="section contact" id="contact">
+            <div class="container">
+                <h2 class="section-title center scroll-reveal">Me <span class="accent">Contacter</span></h2>
+                <div class="contact-content center scroll-reveal bottom">
+                    <p class="contact-description" style="margin: 0 auto 2rem auto; text-align: center;">
+                        Retrouvez-moi sur mes réseaux professionnels.
+                    </p>
+
+                    <div class="hero-buttons" style="justify-content: center;">
+                        <a href="https://www.linkedin.com/in/reda-laabidi-30276a285/" target="_blank"
+                            class="button button-primary">
+                            <i class="fa-brands fa-linkedin"></i> LinkedIn
+                        </a>
+                        <a href="https://github.com/REDA-LAABIDI" target="_blank" class="button button-ghost">
+                            <i class="fa-brands fa-github"></i> GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-content">
+                <a href="#home" class="logo">RIDA<span class="accent">.DEV</span></a>
+                <p class="footer-text">Développeur créatif construisant le web de demain.</p>
+                <div class="footer-social">
+                    <a href="#" class="social-link"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/reda-laabidi-30276a285/" class="social-link"><i
+                            class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://github.com/REDA-LAABIDI" class="social-link"><i
+                            class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+            <p class="footer-copy">&#169; 2024 Rida.Dev. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
